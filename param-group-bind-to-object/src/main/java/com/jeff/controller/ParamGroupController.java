@@ -25,7 +25,7 @@ public class ParamGroupController {
 	 * Nos clientes REST, é possível também no Header da chamada HTTP, informar o formato através do atributo "Accept: application/json(xml)"
 	 * 
 	 */ 
-	public Person getGroup(Person person) {
+	public Person getPerson(Person person) {
 		return person;
 	}
 }
